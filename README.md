@@ -52,6 +52,6 @@ Special thanks to the ReactJS and VITE communities for their excellent libraries
 
 ## Contact
 
-If you have any questions, suggestions, or feedback regarding this project, you can reach out to the project maintainer at [https://www.linkedin.com/in/harsh-singh23]. We appreciate your interest and support!
+If you have any questions, suggestions, or feedback regarding this project, you can reach out to the project maintainer at <a href='https://www.linkedin.com/in/harsh-singh23' target="_blank"><img alt='LinkedIn' src='https://img.shields.io/badge/LinkedIn-100000?style=social&logo=LinkedIn&logoColor=0176FD&labelColor=000000&color=020202'/></a> We appreciate your interest and support!
 
 Happy summarizing with OpenAI ChatGPT-4!
