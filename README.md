@@ -40,10 +40,6 @@ Contributions to this project are welcome! If you find any issues or would like 
 
 When contributing to this project, please follow the existing code style and commit message conventions. Be respectful to others and adhere to the project's Code of Conduct.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code in this repository as per the terms of the license.
-
 ## Acknowledgements
 
 This project was made possible by utilizing the power of OpenAI's ChatGPT-4 language model. We would like to express our gratitude to the OpenAI team for providing such advanced natural language processing capabilities.
