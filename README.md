@@ -1,5 +1,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat) [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://tterb.github.io) [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]() [![NPM License](https://img.shields.io/npm/l/all-contributors.svg?style=flat)](https://github.com/tterb/hyde/blob/master/LICENSE)
-# OpenAI ChatGPT-4 Article/Blogs Summarizer
+# OpenAI ChatGPT-4 Article/Blogs Summarizer <a href='https://6475bd85cecdad48add48b6b--gentle-donut-6e0556.netlify.app/' target="_blank"><img alt='react' src='https://img.shields.io/badge/Live-100000?style=social&logo=react&logoColor=03A6F7&labelColor=000000&color=020202'/></a>
 
 This project is a web application that utilizes OpenAI's ChatGPT-4 language model to summarize articles and blog posts. It provides a user-friendly interface where users can input a URL or directly enter text, and the application will generate a concise summary of the content.
 
