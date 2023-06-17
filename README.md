@@ -3,6 +3,11 @@
 
 This project is a web application that utilizes OpenAI's ChatGPT-4 language model to summarize articles and blog posts. It provides a user-friendly interface where users can input a URL or directly enter text, and the application will generate a concise summary of the content.
 
+![image](https://github.com/harsh774/chatgpt/assets/80638077/c4b97090-55cd-4d9a-8f5c-0f2f92ae6101)
+
+![image](https://github.com/harsh774/chatgpt/assets/80638077/b840c112-d945-4d15-a762-975345445140)
+
+
 ## Technology Stack
 
 The project is built using the following technologies:
