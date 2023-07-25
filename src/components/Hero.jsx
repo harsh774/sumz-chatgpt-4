@@ -16,13 +16,13 @@ const Hero = () => {
         </button>
       </nav>
       <h1 className="head_text">
-        Summarize Articles with <br className="max-md:hidden" />
-        <span className="orange_gradient">OpenAI GPT by Harsh</span>
+        Summarize Articles & Blogs with <br className="max-md:hidden" />
+        <span className="orange_gradient">OpenAI GPT-4 Engine</span>
       </h1>
       <h2 className="desc">
-        Simplify your Articles with Summize, an open-source paragraph summarizer
-        that transforms lengthy articles, blogs into clear and concise
-        summaries.
+        Simplify your Articles, Blogs with Summize, an open-source paragraph
+        summarizer that transforms lengthy articles, blogs into clear and
+        concise summaries.
       </h2>
     </header>
   );

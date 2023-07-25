@@ -3,6 +3,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { copy, linkIcon, loader, tick } from '../assets';
 import { useLazyGetSummaryQuery } from '../services/article';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Demo = () => {
   const [article, setArticle] = useState({
@@ -71,7 +73,7 @@ const Demo = () => {
             type="submit"
             className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700"
           >
-            ⮐
+            ➤
           </button>
         </form>
 
@@ -101,7 +103,7 @@ const Demo = () => {
           <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
         ) : error ? (
           <p className="font-inter font-bold text-black text-center">
-            Oops!! Well that wasn't supposed to happen... <br />
+            Oops!! Well that was not supposed to happen... <br />
             <span className="font-satoshi font-normal text-gray-700">
               {error?.data?.error}
             </span>
@@ -110,16 +112,37 @@ const Demo = () => {
           article.summary && (
             <div className="flex flex-col gap-3">
               <h2 className="font-satoshi font-bold text-gray-600 text-xl">
-                Article<span className="blue_gradient">Summary</span>
+                Article
+                <span className="blue_gradient" style={{ marginLeft: '5px' }}>
+                  Summary
+                </span>
               </h2>
               <div className="summary_box">
-                <p className="font-inter font-medium text-sm text-gray-700">
+                <p className="font-inter text-justify font-medium text-sm text-gray-700">
                   {article.summary}
                 </p>
               </div>
             </div>
           )
         )}
+      </div>
+      <div className="my-10 max-w-full flex justify-center items-center">
+        Made with 🧡 by
+        <span
+          className="orange_gradient font-bold"
+          style={{ marginLeft: '5px' }}
+        >
+          Harsh
+        </span>
+        <a
+          href="https://www.linkedin.com/in/harsh-singh23/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-2"
+          style={{ color: '#0077B5' }}
+        >
+          <FontAwesomeIcon icon={faLinkedin} size="lg" />
+        </a>
       </div>
     </section>
   );
